@@ -53,7 +53,7 @@
 
 /*---------------BUSINESS------------------------*/
 
-.business {
+/* .business {
     background: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -65,9 +65,9 @@
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
-.business-title {
+/* .business-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -78,13 +78,13 @@
     margin: 0 auto;
     text-align: center;
     margin-bottom: 48px;
-}
+} */
 
 .bussiness-button{
     display: flex;
 }
 
-.business-btn {
+/* .business-btn {
      background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -101,7 +101,7 @@
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .business-btn:hover, .business-btn:focus{
     background-color: #404BBF;
@@ -111,10 +111,10 @@
 
  /*----------------INFORMATION-------*/   
 
-  .information {
+  /* .information {
     padding: 120px 0;
  
-  }
+  } */
   .visually-hidden{
         position: absolute;
         width: 1px;
@@ -126,9 +126,9 @@
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden;
-    }
+    } 
 
-  .information-menu-list {
+  /* .information-menu-list {
     
   
     display: flex;
@@ -167,12 +167,12 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
+}  */
 /*----------------INFORMATION-------*/
 
 
 /*--------------TEAM---------------*/
-.team {
+/* .team {
     background-color: #F4F4FD;
     padding: 120px 0;
 
@@ -239,8 +239,8 @@
     justify-content: center;
     align-items: center;
     gap: 24px;
-    
 }
+
 .team-list-icon{
     height: 40px;
     width: 40px;
@@ -267,7 +267,7 @@
 
 .team-icon-svg:focus {
     background-color: #404bbf;
-}
+} */
 
 
 /*--------------TEAM---------------*/
@@ -298,16 +298,12 @@
     row-gap: 48px;
     flex-basis: calc((100% - 120px) / 6);
     flex-wrap: wrap;
-    
 }
 
 .portfolio-menu-item {
     background-color: #ffffff;
     width: calc((100% - 2*24px) / 3);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-  
-       
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);       
 }
 
 
