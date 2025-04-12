@@ -21,7 +21,7 @@
         
        <div class="container header-container">
             <nav class="header-navigation">
-                <a class="header-logo" href="./index.html">Web<span class="accent">Studio</span></a> 
+                <a class="logo header-logo" href="./index.html">Web<span class="accent">Studio</span></a> 
                 <ul class="header-menu-list">
                     <li class="header-menu-item">
                         <a class="header-menu-link current" href="./index.html" >Studio</a>
@@ -42,22 +42,46 @@
                         </li>
                     </ul>
                 </address>
+                <button type="button" class="burger-btn" data-menu-open>
+                    <svg class="burger-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-burger"></use>
+                    </svg>
+            </button>
         </div>
-        
+        <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu-container">
+                <button type="button" class="mobile-close-btn" data-menu-close><svg class="mobile-menu-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-close-black-menu"></use>
+                </svg></button>
+                <nav class="mobile-menu-nav">
+                    <ul class="mobile-menu-list">
+                        <li class="mobile-menu-item">Studio</li>
+                        <li class="mobile-menu-item">Portfolio</li>
+                        <li class="mobile-menu-item">Contacts</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="mobile-menu-adress">
+                <address class="mobile-menu-address">
+                    <ul class="mobile-adress-list">
+                        <li class="mobile-adress-item">info@devstudio.com</li>
+                        <li class="mobile-adress-item">+11 (000) 111-11-11</li>
+                    </ul>
+                </address>
+            </div>
+        </div>
     </header>
     
     <main>
-        <section class="business">
+        <section class="business hidden">
               <div class="container">
                     <h1 class="business-title">Effective Solutions
                     for Your Business</h1>                      
-                            <button data-modal-open type="button" class="business-btn">Order Service</button>
-                  
-                  
+                            <button class="business-btn" type="button" data-modal-open>Order Service</button>                  
               </div>
         </section>
 
-        <section class="information">
+        <section class="information hidden">
             <div class="container">
                 <h2 class="visually-hidden">Features</h2>
                 <ul class="information-menu-list">
@@ -106,7 +130,7 @@
 
         </section>
 
-        <section class="team">
+        <section class="team hidden">
 
             <div class="container">
                 <h2 class="team-title">Our Team</h2>
@@ -216,7 +240,7 @@
 
         </section>
 
-        <section class="portfolio">
+        <section class="portfolio hidden">
            <div class="container">
                 <h2 class="portfolio-title">Our Portfolio</h2>
                 <ul class="portfolio-menu-list">
@@ -299,7 +323,7 @@
 
     </main>
     
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container container-link">
         <div class="footer-container-link">
             <a class="footer-link" href="./index.html">Web<span class="accent-two">Studio</span></a>
@@ -359,8 +383,8 @@
       </div> 
    </footer>
 
-   <div data-modal class="backdrop is-open">
-    <div class="modal" >
+   <div  class="backdrop hidden" data-modal>
+    <div  class="modal " >
         <button data-modal-close type="button" class="modal-close-btn">
             <svg class="modal-btn-icon" width="8" height="8">
                 <use href="./images/icons.svg#icon-close-black"></use>
@@ -458,6 +482,7 @@
 
     </div>
    </div>
+   <script src="./js/menu.js"
    <script src="./js/modal.js"></script>
 </body>
 
