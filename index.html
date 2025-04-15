@@ -48,27 +48,70 @@
                     </svg>
             </button>
         </div>
+        
         <div class="mobile-menu" data-menu>
-            <div class="container mobile-menu-container">
-                <button type="button" class="mobile-close-btn" data-menu-close><svg class="mobile-menu-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-close-black-menu"></use>
-                </svg></button>
-                <nav class="mobile-menu-nav">
-                    <ul class="mobile-menu-list">
-                        <li class="mobile-menu-item">Studio</li>
-                        <li class="mobile-menu-item">Portfolio</li>
-                        <li class="mobile-menu-item">Contacts</li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="mobile-menu-adress">
-                <address class="mobile-menu-address">
-                    <ul class="mobile-adress-list">
-                        <li class="mobile-adress-item">info@devstudio.com</li>
-                        <li class="mobile-adress-item">+11 (000) 111-11-11</li>
-                    </ul>
-                </address>
-            </div>
+           <div>
+                
+                    <button type="button" class="mobile-close-btn" data-menu-close><svg class="modal-btn-icon" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close-black"></use>
+                    </svg></button> 
+                    
+                    <nav class="mobile-menu-nav">
+                        <ul class="mobile-menu-list">
+                            <li class="mobile-menu-item">
+                               <a href="" class="mobile-menu-link accent"> Studio
+                               </a>
+                               </li>
+                            <li class="mobile-menu-item"> <a href="" class="mobile-menu-link">Portfolio 
+                            </a></li>
+                            <li class="mobile-menu-item"> <a href="" class="mobile-menu-link"> Contacts
+                            </a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                    <div class="mobile-menu-container">
+                        <address class="mobile-menu-address">
+                            <ul class="mobile-adress-list">
+                                <li class="mobile-adress-item"><a href="" class="mobile-adress-link accent">+11 (000) 111-11-11</a></li>
+                                <li class="mobile-adress-item">
+                                   <a href="" class="mobile-adress-link">info@devstudio.com</a> </li>
+                                
+                            </ul>
+                        </address>
+    
+                        <ul class="mob-icon-menu mob-list-icon">
+                            <li class="team-list-icon"><a class="mob-icon-svg" href="">
+                                    <svg class="mob-item-svg" width="24" height="24">
+                                        <use href="./images/icons.svg#icon-instagram"></use>
+                                    </svg></a>
+                            </li>
+                            <li class="team-list-icon"><a class="footer-icon-svg" href="">
+                                <svg 
+                                class="footer-item-svg" 
+                                width="24" 
+                                height="24">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg></a>
+                            </li>
+                            <li class="team-list-icon"><a class="footer-icon-svg" href="">
+                                <svg 
+                                class="footer-item-svg" 
+                                width="24" 
+                                height="24">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg></a>
+                            </li>
+                            <li class="team-list-icon"><a class="footer-icon-svg" href="">
+                                    <svg class="footer-item-svg" width="24" height="24">
+                                        <use href="./images/icons.svg#icon-linkedin"></use>
+                                    </svg></a>
+                            </li>
+                        </ul>
+                    </div>
+            
+            
+            
         </div>
     </header>
     
@@ -391,7 +434,7 @@
 
     </main>
     
-    <footer class="footer ">
+    <footer class="footer">
       <div class="container container-link">
         <div class="footer-container-link">
             <a class="footer-link" href="./index.html">Web<span class="accent-two">Studio</span></a>
@@ -451,7 +494,7 @@
       </div> 
    </footer>
 
-   <div  class="backdrop hidden" data-modal>
+   <div  class="backdrop" data-modal>
     <div  class="modal " >
         <button data-modal-close type="button" class="modal-close-btn">
             <svg class="modal-btn-icon" width="8" height="8">
@@ -550,7 +593,7 @@
 
     </div>
    </div>
-   <script src="./js/menu.js"
+   <script src="./js/menu.js"></script>
    <script src="./js/modal.js"></script>
 </body>
 
