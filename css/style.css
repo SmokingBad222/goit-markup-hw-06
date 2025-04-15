@@ -263,13 +263,13 @@ button{
 .mobile-close-btn{
     display: block;
     margin-left: auto;
-   margin-bottom: 24px;
+    margin-bottom: 24px;
     top: 24px;
     right: 24px;
     width: 24px;
     height: 24px;
+    
     display: flex;
-   
     align-items: center;
     background-color: #e7e9fc;
     border-radius: 50%;
@@ -1106,8 +1106,6 @@ button{
     margin-right: 80px;
 }
 .footer-container-link{
-            
-    
     margin-bottom: 0;
  }
  .footer-text{
