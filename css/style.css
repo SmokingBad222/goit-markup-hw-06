@@ -741,7 +741,7 @@ span.accent{
     text-transform: capitalize;          
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 72px;   
+    /* margin-bottom: 72px;    */
 }
 
 .portfolio-menu-list{
@@ -815,6 +815,7 @@ span.accent{
         column-gap: 24px;
         row-gap: 72px;
         flex-wrap: wrap;
+        box-shadow: none;
        
     }
 
@@ -1060,7 +1061,9 @@ span.accent{
     }
 
     @media screen and (min-width: 768px){
-
+        .footer .container{ 
+        max-width: 584px;
+        }
         
         .container-link{
             justify-content: left;
@@ -1068,8 +1071,8 @@ span.accent{
         
         .footer-container-link{
             max-width: 264px;
-           margin-right: 24px;
-           margin-bottom: 72px;
+           
+   
         }
 
         .footer-text-social{
@@ -1105,6 +1108,9 @@ span.accent{
     }
 
     @media screen and (min-width: 1158px){
+        .footer .container{
+            min-width: 1158px;
+        }
         .footer{
             padding: 100px 0;
         }
@@ -1119,7 +1125,10 @@ span.accent{
     
     .footer-container-social{
      
-        margin-right: 80px;
+        /* margin-right: 80px; */
+    }
+    .footer-form-sub{
+        margin-left: auto;
     }
     
     .container-link{
